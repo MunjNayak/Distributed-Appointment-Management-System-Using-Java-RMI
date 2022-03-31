@@ -1,0 +1,76 @@
+DATE: 2022-02-06 11:18:03 a.m.  login attempt
+DATE: 2022-02-06 11:18:03 a.m.  Patient Login successful
+DATE: 2022-02-06 11:18:15 a.m.  attempting to bookAppointment
+DATE: 2022-02-06 11:18:15 a.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-06 11:18:19 a.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-06 11:18:19 a.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+MTLM010101 ||
+=====================================
+
+DATE: 2022-02-06 11:18:31 a.m.  attempting to cancelAppointment
+DATE: 2022-02-06 11:18:31 a.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Canceled for QUEP1234
+DATE: 2022-02-06 11:18:34 a.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-06 11:18:34 a.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+
+=====================================
+
+DATE: 2022-02-06 11:18:50 a.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-06 11:18:50 a.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+
+=====================================
+
+DATE: 2022-02-06 11:18:58 a.m.  attempting to Logout
+DATE: 2022-02-06 11:40:39 a.m.  login attempt
+DATE: 2022-02-06 11:40:39 a.m.  Patient Login successful
+DATE: 2022-02-06 11:40:52 a.m.  attempting to bookAppointment
+DATE: 2022-02-06 11:40:52 a.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-06 11:41:09 a.m.  attempting to bookAppointment
+DATE: 2022-02-06 11:41:09 a.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLA020101 appointmentType: Surgeon  | Server Response: Success: Appointment MTLA020101 Booked Successfully
+DATE: 2022-02-06 11:41:31 a.m.  attempting to bookAppointment
+DATE: 2022-02-06 11:41:31 a.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: SHEE030101 appointmentType: Dental  | Server Response: Success: Appointment SHEE030101 Booked Successfully
+DATE: 2022-02-06 11:41:44 a.m.  attempting to bookAppointment
+DATE: 2022-02-06 11:41:44 a.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: SHEM050101 appointmentType: Physician  | Server Response: Failed: You Cannot Book Appointment in Other Servers For This Week(Max Weekly Limit = 3)
+DATE: 2022-02-06 11:42:10 a.m.  attempting to cancelAppointment
+DATE: 2022-02-06 11:42:10 a.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Canceled for QUEP1234
+DATE: 2022-02-06 11:42:13 a.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-06 11:42:13 a.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+
+=====================================
+Surgeon:
+MTLA020101 ||
+=====================================
+Dental:
+SHEE030101 ||
+=====================================
+
+DATE: 2022-02-06 11:42:22 a.m.  attempting to Logout
+DATE: 2022-02-10 12:39:36 p.m.  login attempt
+DATE: 2022-02-10 12:39:36 p.m.  Patient Login successful
+DATE: 2022-02-10 12:39:46 p.m.  attempting to bookAppointment
+DATE: 2022-02-10 12:39:46 p.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: SHEM010101 appointmentType: Dental  | Server Response: Success: Appointment SHEM010101 Booked Successfully
+DATE: 2022-02-10 12:39:53 p.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-10 12:39:53 p.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Dental:
+SHEM010101 ||
+=====================================
+
+DATE: 2022-02-10 12:40:01 p.m.  attempting to Logout
+DATE: 2022-02-10 12:40:22 p.m.  login attempt
+DATE: 2022-02-10 12:40:22 p.m.  Patient Login successful
+DATE: 2022-02-10 12:40:24 p.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-10 12:40:24 p.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Dental:
+
+=====================================
+
+DATE: 2022-02-10 12:41:10 p.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-10 12:41:10 p.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Dental:
+
+=====================================
+
+DATE: 2022-02-10 12:44:32 p.m.  attempting to cancelAppointment
+DATE: 2022-02-10 12:44:32 p.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: SHEE030101 appointmentType: Dental  | Server Response: Failed: You QUEP1234 Are Not Registered in SHEE030101
+DATE: 2022-02-10 12:45:59 p.m.  attempting to Logout
+DATE: 2022-02-14 12:42:12 p.m.  login attempt
+DATE: 2022-02-14 12:42:12 p.m.  Patient Login successful
+DATE: 2022-02-14 12:42:18 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 12:42:18 p.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | Server Response: Failed: Appointment MTLM070707 is Full
+DATE: 2022-02-14 12:42:22 p.m.  attempting to Logout

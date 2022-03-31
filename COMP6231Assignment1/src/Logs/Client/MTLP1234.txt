@@ -1,0 +1,5 @@
+DATE: 2022-02-14 05:45:05 p.m.  login attempt
+DATE: 2022-02-14 05:45:05 p.m.  Patient Login successful
+DATE: 2022-02-14 05:45:11 p.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-14 05:45:11 p.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Appointment Schedule Empty For MTLP1234
+DATE: 2022-02-14 05:45:17 p.m.  attempting to Logout

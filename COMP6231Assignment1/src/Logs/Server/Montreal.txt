@@ -1,0 +1,413 @@
+DATE: 2022-02-05 08:57:22 a.m.  Server is Up & Running
+DATE: 2022-02-05 08:57:22 a.m.  UDP Server Started at port 8888
+DATE: 2022-02-05 09:42:00 a.m.  Server is Up & Running
+DATE: 2022-02-05 09:42:00 a.m.  UDP Server Started at port 8888
+DATE: 2022-02-05 09:42:56 a.m. ClientID: Event Manager | RequestType:  RMI addEvent  | RequestParameters:  eventID: MTLM010101 eventType: Conferences bookingCapacity 5  | ServerResponse: Success: Event MTLM010101 added successfully
+DATE: 2022-02-05 09:43:03 a.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 09:43:03 a.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse: SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] || 
+=====================================
+
+DATE: 2022-02-05 09:43:03 a.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 09:43:03 a.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse: QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 09:43:03 a.m. ClientID: Event Manager | RequestType:  RMI listEventAvailability  | RequestParameters:  eventType: Conferences  | ServerResponse: MONTREAL Server Conferences:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] || 
+=====================================
+QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 09:44:51 a.m. ClientID: Event Manager | RequestType:  RMI removeEvent  | RequestParameters:  eventID: MTLA090620 eventType: Conferences  | ServerResponse: Success: Event Removed Successfully
+DATE: 2022-02-05 09:45:04 a.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 09:45:04 a.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse: SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] || 
+=====================================
+
+DATE: 2022-02-05 09:45:04 a.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 09:45:04 a.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse: QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 09:45:04 a.m. ClientID: Event Manager | RequestType:  RMI listEventAvailability  | RequestParameters:  eventType: Conferences  | ServerResponse: MONTREAL Server Conferences:
+ (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] || 
+=====================================
+QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 12:54:11 p.m. ClientID: MTLC1234 | RequestType:  UDP request sent bookEvent  | RequestParameters:  eventID: SHEE080620 eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 12:54:11 p.m. ClientID: MTLC1234 | RequestType:  UDP reply receivedbookEvent  | RequestParameters:  eventID: SHEE080620 eventType: Conferences  | ServerResponse: Success: Event SHEE080620 Booked Successfully
+DATE: 2022-02-05 12:54:11 p.m. ClientID: MTLC1234 | RequestType:  RMI bookEvent  | RequestParameters:  eventID: SHEE080620 eventType: Conferences  | ServerResponse: Success: Event SHEE080620 Booked Successfully
+DATE: 2022-02-05 12:56:37 p.m. ClientID: MTLC1234 | RequestType:  UDP request sent bookEvent  | RequestParameters:  eventID: SHEE110620 eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 12:56:37 p.m. ClientID: MTLC1234 | RequestType:  UDP reply receivedbookEvent  | RequestParameters:  eventID: SHEE110620 eventType: Conferences  | ServerResponse: Success: Event SHEE110620 Booked Successfully
+DATE: 2022-02-05 12:56:37 p.m. ClientID: MTLC1234 | RequestType:  RMI bookEvent  | RequestParameters:  eventID: SHEE110620 eventType: Conferences  | ServerResponse: Success: Event SHEE110620 Booked Successfully
+DATE: 2022-02-05 12:56:54 p.m. ClientID: MTLC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Conferences:
+SHEE080620 ||SHEE110620 ||
+=====================================
+
+DATE: 2022-02-05 12:57:57 p.m. ClientID: MTLC1234 | RequestType:  UDP request sent cancelEvent  | RequestParameters:  eventID: SHEE080620 eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 12:57:57 p.m. ClientID: MTLC1234 | RequestType:  UDP reply receivedcancelEvent  | RequestParameters:  eventID: SHEE080620 eventType: Conferences  | ServerResponse: Success: Event SHEE080620 Canceled for MTLC1234
+DATE: 2022-02-05 12:58:21 p.m. ClientID: MTLC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Conferences:
+SHEE110620 ||
+=====================================
+
+DATE: 2022-02-05 01:03:31 p.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Seminars  | ServerResponse:  ... 
+DATE: 2022-02-05 01:03:31 p.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Seminars  | ServerResponse: SHERBROOK Server Seminars:
+No Events of Type Seminars
+=====================================
+
+DATE: 2022-02-05 01:03:31 p.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Seminars  | ServerResponse:  ... 
+DATE: 2022-02-05 01:03:31 p.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Seminars  | ServerResponse: QUEBEC Server Seminars:
+No Events of Type Seminars
+=====================================
+
+DATE: 2022-02-05 01:03:31 p.m. ClientID: Event Manager | RequestType:  RMI listEventAvailability  | RequestParameters:  eventType: Seminars  | ServerResponse: MONTREAL Server Seminars:
+ (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+=====================================
+SHERBROOK Server Seminars:
+No Events of Type Seminars
+=====================================
+QUEBEC Server Seminars:
+No Events of Type Seminars
+=====================================
+
+DATE: 2022-02-05 01:04:05 p.m. ClientID: Event Manager | RequestType:  RMI removeEvent  | RequestParameters:  eventID: MTLE230620 eventType: Seminars  | ServerResponse: Success: Event Removed Successfully
+DATE: 2022-02-05 01:04:57 p.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Trade Shows  | ServerResponse:  ... 
+DATE: 2022-02-05 01:04:57 p.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Trade Shows  | ServerResponse: SHERBROOK Server Trade Shows:
+No Events of Type Trade Shows
+=====================================
+
+DATE: 2022-02-05 01:04:57 p.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Trade Shows  | ServerResponse:  ... 
+DATE: 2022-02-05 01:04:57 p.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Trade Shows  | ServerResponse: QUEBEC Server Trade Shows:
+No Events of Type Trade Shows
+=====================================
+
+DATE: 2022-02-05 01:04:57 p.m. ClientID: Event Manager | RequestType:  RMI listEventAvailability  | RequestParameters:  eventType: Trade Shows  | ServerResponse: MONTREAL Server Trade Shows:
+ (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] || 
+=====================================
+SHERBROOK Server Trade Shows:
+No Events of Type Trade Shows
+=====================================
+QUEBEC Server Trade Shows:
+No Events of Type Trade Shows
+=====================================
+
+DATE: 2022-02-05 01:05:57 p.m. ClientID: Event Manager | RequestType:  RMI removeEvent  | RequestParameters:  eventID: MTLA080620 eventType: Trade Shows  | ServerResponse: Success: Event Removed Successfully
+DATE: 2022-02-05 01:06:48 p.m. ClientID: Event Manager | RequestType:  RMI removeEvent  | RequestParameters:  eventID: MTLA150620 eventType: Trade Shows  | ServerResponse: Success: Event Removed Successfully
+DATE: 2022-02-05 01:06:55 p.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 01:06:55 p.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse: SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[0] || 
+=====================================
+
+DATE: 2022-02-05 01:06:55 p.m. ClientID: Event Manager | RequestType:  UDP request sent listEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse:  ... 
+DATE: 2022-02-05 01:06:55 p.m. ClientID: Event Manager | RequestType:  UDP reply receivedlistEventAvailability  | RequestParameters:  eventID: null eventType: Conferences  | ServerResponse: QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 01:06:55 p.m. ClientID: Event Manager | RequestType:  RMI listEventAvailability  | RequestParameters:  eventType: Conferences  | ServerResponse: MONTREAL Server Conferences:
+ (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[0] || 
+=====================================
+QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 01:07:21 p.m. ClientID: Event Manager | RequestType:  RMI removeEvent  | RequestParameters:  eventID: MTLM010101 eventType: Conferences  | ServerResponse: Success: Event Removed Successfully
+DATE: 2022-02-06 11:12:12 a.m.  Server is Up & Running
+DATE: 2022-02-06 11:12:12 a.m.  UDP Server Started at port 8888
+DATE: 2022-02-06 11:17:30 a.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician bookingCapacity 5  | ServerResponse: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:17:43 a.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-06 11:17:43 a.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:17:43 a.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-06 11:17:43 a.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:17:43 a.m. PatientID: Admin | RequestType:  RMI listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:18:15 a.m. PatientID: QUEP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-06 11:18:15 a.m. PatientID: QUEP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-06 11:18:15 a.m. PatientID: QUEP1234 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Booked Successfully;
+DATE: 2022-02-06 11:18:31 a.m. PatientID: QUEP1234 | RequestType:  UDP request received cancelAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-06 11:18:31 a.m. PatientID: QUEP1234 | RequestType:  RMI cancelAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Canceled for QUEP1234
+DATE: 2022-02-06 11:18:31 a.m. PatientID: QUEP1234 | RequestType:  UDP reply sent cancelAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Canceled for QUEP1234;
+DATE: 2022-02-06 11:19:17 a.m. PatientID: SHEP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM010102 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-06 11:20:35 a.m.  Server is Up & Running
+DATE: 2022-02-06 11:20:35 a.m.  UDP Server Started at port 8888
+DATE: 2022-02-06 11:21:00 a.m. PatientID: SHEP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-06 11:22:24 a.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician bookingCapacity 3  | ServerResponse: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:22:40 a.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician bookingCapacity 3  | ServerResponse: Success: Appointment MTLA010101 added successfully
+DATE: 2022-02-06 11:22:58 a.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-06 11:23:07 a.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA010101 Booked Successfully
+DATE: 2022-02-06 11:23:07 a.m. PatientID: Admin | RequestType:  RMI removeAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment Removed Successfully
+DATE: 2022-02-06 11:23:14 a.m. PatientID: MTLP1234 | RequestType:  RMI getAppointmentSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA010101 ||
+=====================================
+
+DATE: 2022-02-06 11:23:43 a.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-06 11:23:43 a.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:23:43 a.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-06 11:23:43 a.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:23:43 a.m. PatientID: Admin | RequestType:  RMI listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA010101) in the Afternoon of 01/01/2001 Total[Remaining] Capacity: 3[2] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:25:02 a.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician bookingCapacity 5  | ServerResponse: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:25:21 a.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Surgeon bookingCapacity 5  | ServerResponse: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:25:33 a.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Dental bookingCapacity 3  | ServerResponse: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:25:41 a.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-06 11:25:41 a.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:25:41 a.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-06 11:25:41 a.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:25:41 a.m. PatientID: Admin | RequestType:  RMI listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA010101) in the Afternoon of 01/01/2001 Total[Remaining] Capacity: 3[2] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:29:36 a.m.  Server is Up & Running
+DATE: 2022-02-06 11:29:36 a.m.  UDP Server Started at port 8888
+DATE: 2022-02-06 11:30:00 a.m. PatientID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-06 11:30:00 a.m. PatientID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+No Appointments of Type Physician
+=====================================
+;
+DATE: 2022-02-06 11:31:40 a.m. PatientID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-06 11:31:40 a.m. PatientID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+No Appointments of Type Physician
+=====================================
+;
+DATE: 2022-02-06 11:31:46 a.m. PatientID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse:  ...
+DATE: 2022-02-06 11:31:46 a.m. PatientID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: MONTREAL Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+;
+DATE: 2022-02-06 11:31:54 a.m. PatientID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse:  ...
+DATE: 2022-02-06 11:31:54 a.m. PatientID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: MONTREAL Server Dental:
+No Appointments of Type Dental
+=====================================
+;
+DATE: 2022-02-06 11:38:31 a.m.  Server is Up & Running
+DATE: 2022-02-06 11:38:31 a.m.  UDP Server Started at port 8888
+DATE: 2022-02-06 11:38:58 a.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician bookingCapacity 3  | ServerResponse: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:39:15 a.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLA020101 appointmentType: Surgeon bookingCapacity 3  | ServerResponse: Success: Appointment MTLA020101 added successfully
+DATE: 2022-02-06 11:40:52 a.m. PatientID: QUEP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-06 11:40:52 a.m. PatientID: QUEP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-06 11:40:52 a.m. PatientID: QUEP1234 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Booked Successfully;
+DATE: 2022-02-06 11:41:09 a.m. PatientID: QUEP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLA020101 appointmentType: Surgeon  | ServerResponse:  ...
+DATE: 2022-02-06 11:41:09 a.m. PatientID: QUEP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLA020101 appointmentType: Surgeon  | ServerResponse: Success: Appointment MTLA020101 Booked Successfully
+DATE: 2022-02-06 11:41:09 a.m. PatientID: QUEP1234 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLA020101 appointmentType: Surgeon  | ServerResponse: Success: Appointment MTLA020101 Booked Successfully;
+DATE: 2022-02-06 11:42:10 a.m. PatientID: QUEP1234 | RequestType:  UDP request received cancelAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-06 11:42:10 a.m. PatientID: QUEP1234 | RequestType:  RMI cancelAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Canceled for QUEP1234
+DATE: 2022-02-06 11:42:10 a.m. PatientID: QUEP1234 | RequestType:  UDP reply sent cancelAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Canceled for QUEP1234;
+DATE: 2022-02-10 12:37:46 p.m.  Server is Up & Running
+DATE: 2022-02-10 12:37:46 p.m.  UDP Server Started at port 8888
+DATE: 2022-02-10 12:46:09 p.m. PatientID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse:  ...
+DATE: 2022-02-10 12:46:09 p.m. PatientID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: MONTREAL Server Dental:
+No Appointments of Type Dental
+=====================================
+;
+DATE: 2022-02-10 12:48:14 p.m. PatientID: MTLP1111 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEM020202 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-10 12:48:14 p.m. PatientID: MTLP1111 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEM020202 appointmentType: Physician  | ServerResponse: Success: Appointment SHEM020202 Booked Successfully
+DATE: 2022-02-10 12:48:14 p.m. PatientID: MTLP1111 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: SHEM020202 appointmentType: Physician  | ServerResponse: Success: Appointment SHEM020202 Booked Successfully
+DATE: 2022-02-10 12:48:18 p.m. PatientID: MTLP1111 | RequestType:  RMI getAppointmentSchedule  | RequestParameters: null | ServerResponse: Physician:
+SHEM020202 ||
+=====================================
+
+DATE: 2022-02-10 12:58:59 p.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician bookingCapacity 5  | ServerResponse: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-10 12:59:08 p.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM020101 appointmentType: Physician bookingCapacity 5  | ServerResponse: Success: Appointment MTLM020101 added successfully
+DATE: 2022-02-10 12:59:22 p.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM030101 appointmentType: Physician bookingCapacity 5  | ServerResponse: Success: Appointment MTLM030101 added successfully
+DATE: 2022-02-10 12:59:37 p.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM040101 appointmentType: Physician bookingCapacity 5  | ServerResponse: Success: Appointment MTLM040101 added successfully
+DATE: 2022-02-10 12:59:44 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-10 12:59:44 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+ (SHEM020202) in the Morning of 02/02/2002 Total[Remaining] Capacity: 5[4] || 
+=====================================
+
+DATE: 2022-02-10 12:59:44 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-10 12:59:44 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-10 12:59:44 p.m. PatientID: Admin | RequestType:  RMI listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLM020101) in the Morning of 02/01/2001 Total[Remaining] Capacity: 5[5] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] ||  (MTLM040101) in the Morning of 04/01/2001 Total[Remaining] Capacity: 5[5] ||  (MTLM030101) in the Morning of 03/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Physician:
+ (SHEM020202) in the Morning of 02/02/2002 Total[Remaining] Capacity: 5[4] || 
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-10 01:00:20 p.m. PatientID: QUEP1111 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-10 01:00:20 p.m. PatientID: QUEP1111 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-10 01:00:20 p.m. PatientID: QUEP1111 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Booked Successfully;
+DATE: 2022-02-10 01:00:27 p.m. PatientID: QUEP1111 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM020101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-10 01:00:27 p.m. PatientID: QUEP1111 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM020101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM020101 Booked Successfully
+DATE: 2022-02-10 01:00:27 p.m. PatientID: QUEP1111 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLM020101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM020101 Booked Successfully;
+DATE: 2022-02-10 01:00:35 p.m. PatientID: QUEP1111 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM030101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-10 01:00:35 p.m. PatientID: QUEP1111 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM030101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM030101 Booked Successfully
+DATE: 2022-02-10 01:00:35 p.m. PatientID: QUEP1111 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLM030101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM030101 Booked Successfully;
+DATE: 2022-02-10 01:01:10 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-10 01:01:10 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+ (SHEM020202) in the Morning of 02/02/2002 Total[Remaining] Capacity: 5[4] || 
+=====================================
+
+DATE: 2022-02-10 01:01:10 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-10 01:01:10 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-10 01:01:10 p.m. PatientID: Admin | RequestType:  RMI listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLM020101) in the Morning of 02/01/2001 Total[Remaining] Capacity: 5[4] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[4] ||  (MTLM040101) in the Morning of 04/01/2001 Total[Remaining] Capacity: 5[5] ||  (MTLM030101) in the Morning of 03/01/2001 Total[Remaining] Capacity: 5[4] || 
+=====================================
+SHERBROOK Server Physician:
+ (SHEM020202) in the Morning of 02/02/2002 Total[Remaining] Capacity: 5[4] || 
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-10 01:01:29 p.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM160101 appointmentType: Physician bookingCapacity 5  | ServerResponse: Success: Appointment MTLM160101 added successfully
+DATE: 2022-02-10 01:01:52 p.m. PatientID: QUEP1111 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM160101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-10 01:01:52 p.m. PatientID: QUEP1111 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM160101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM160101 Booked Successfully
+DATE: 2022-02-10 01:01:52 p.m. PatientID: QUEP1111 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLM160101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM160101 Booked Successfully;
+DATE: 2022-02-14 12:40:20 p.m.  Server is Up & Running
+DATE: 2022-02-14 12:40:20 p.m.  UDP Server Started at port 8888
+DATE: 2022-02-14 12:40:50 p.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon bookingCapacity 2  | ServerResponse: Success: Appointment MTLM070707 added successfully
+DATE: 2022-02-14 12:41:11 p.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | ServerResponse: Success: Appointment MTLM070707 Booked Successfully
+DATE: 2022-02-14 12:41:31 p.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | ServerResponse: Failed: Appointment MTLM070707 Already Booked
+DATE: 2022-02-14 12:41:44 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2022-02-14 12:41:44 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: SHERBROOK Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+
+DATE: 2022-02-14 12:41:44 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2022-02-14 12:41:44 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: QUEBEC Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+
+DATE: 2022-02-14 12:41:44 p.m. PatientID: Admin | RequestType:  RMI listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse: MONTREAL Server Surgeon:
+ (MTLM070707) in the Morning of 07/07/2007 Total[Remaining] Capacity: 2[1] || 
+=====================================
+SHERBROOK Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+QUEBEC Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+
+DATE: 2022-02-14 12:42:03 p.m. PatientID: SHEP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | ServerResponse:  ...
+DATE: 2022-02-14 12:42:03 p.m. PatientID: SHEP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | ServerResponse: Success: Appointment MTLM070707 Booked Successfully
+DATE: 2022-02-14 12:42:03 p.m. PatientID: SHEP1234 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | ServerResponse: Success: Appointment MTLM070707 Booked Successfully;
+DATE: 2022-02-14 12:42:18 p.m. PatientID: QUEP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | ServerResponse:  ...
+DATE: 2022-02-14 12:42:18 p.m. PatientID: QUEP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | ServerResponse: Failed: Appointment MTLM070707 is Full
+DATE: 2022-02-14 12:42:18 p.m. PatientID: QUEP1234 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | ServerResponse: Failed: Appointment MTLM070707 is Full;
+DATE: 2022-02-14 02:15:01 p.m.  Server is Up & Running
+DATE: 2022-02-14 02:15:01 p.m.  UDP Server Started at port 8888
+DATE: 2022-02-14 05:44:29 p.m.  Server is Up & Running
+DATE: 2022-02-14 05:44:29 p.m.  UDP Server Started at port 8888
+DATE: 2022-02-14 05:45:11 p.m. PatientID: MTLP1234 | RequestType:  RMI getAppointmentSchedule  | RequestParameters: null | ServerResponse: Appointment Schedule Empty For MTLP1234
+DATE: 2022-02-14 07:03:30 p.m.  Server is Up & Running
+DATE: 2022-02-14 07:03:30 p.m.  UDP Server Started at port 8888
+DATE: 2022-02-14 07:03:49 p.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician bookingCapacity 3  | ServerResponse: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-14 07:04:03 p.m. PatientID: Admin | RequestType:  RMI addAppointment  | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician bookingCapacity 3  | ServerResponse: Success: Appointment MTLA010101 added successfully
+DATE: 2022-02-14 07:04:27 p.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-14 07:04:40 p.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA010101 Booked Successfully
+DATE: 2022-02-14 07:06:56 p.m. PatientID: MTLP1234 | RequestType:  RMI getAppointmentSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLM010101 ||MTLA010101 ||
+=====================================
+
+DATE: 2022-02-14 07:07:23 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-14 07:07:23 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-14 07:07:23 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-14 07:07:23 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-14 07:07:23 p.m. PatientID: Admin | RequestType:  RMI listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA010101) in the Afternoon of 01/01/2001 Total[Remaining] Capacity: 3[2] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 3[2] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-14 07:08:44 p.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician  | ServerResponse: Failed: Appointment MTLA010101 Already Booked
+DATE: 2022-02-14 07:09:07 p.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | ServerResponse: Failed: Appointment MTLM010101 Already Booked
+DATE: 2022-02-14 07:09:22 p.m. PatientID: MTLP1234 | RequestType:  RMI cancelAppointment  | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA010101 Canceled for MTLP1234
+DATE: 2022-02-14 07:09:32 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-14 07:09:32 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-14 07:09:32 p.m. PatientID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-02-14 07:09:32 p.m. PatientID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-14 07:09:32 p.m. PatientID: Admin | RequestType:  RMI listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA010101) in the Afternoon of 01/01/2001 Total[Remaining] Capacity: 3[3] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 3[2] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-14 07:09:43 p.m. PatientID: MTLP1234 | RequestType:  RMI getAppointmentSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLM010101 ||
+=====================================
+
+DATE: 2022-02-14 07:10:05 p.m. PatientID: MTLP1234 | RequestType:  RMI bookAppointment  | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA010101 Booked Successfully
+DATE: 2022-02-14 09:27:08 p.m.  Server is Up & Running
+DATE: 2022-02-14 09:27:08 p.m.  UDP Server Started at port 8888

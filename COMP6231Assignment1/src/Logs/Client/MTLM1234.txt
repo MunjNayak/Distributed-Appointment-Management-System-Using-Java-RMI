@@ -1,0 +1,95 @@
+DATE: 2022-02-05 09:37:21 a.m.  login attempt
+DATE: 2022-02-05 09:37:21 a.m.  Manager Login successful
+DATE: 2022-02-05 09:41:10 a.m.  login attempt
+DATE: 2022-02-05 09:41:11 a.m.  Manager Login successful
+DATE: 2022-02-05 09:42:21 a.m.  login attempt
+DATE: 2022-02-05 09:42:21 a.m.  Manager Login successful
+DATE: 2022-02-05 09:42:56 a.m.  attempting to addEvent
+DATE: 2022-02-05 09:42:56 a.m. Client Action:  addEvent | RequestParameters:  eventID: MTLM010101 eventType: Conferences eventCapacity: 5  | Server Response: Success: Event MTLM010101 added successfully
+DATE: 2022-02-05 09:43:03 a.m.  attempting to listEventAvailability
+DATE: 2022-02-05 09:43:03 a.m. Client Action:  listEventAvailability | RequestParameters:  eventType: Conferences  | Server Response: MONTREAL Server Conferences:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] || 
+=====================================
+QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 09:44:51 a.m.  attempting to removeEvent
+DATE: 2022-02-05 09:44:51 a.m. Client Action:  removeEvent | RequestParameters:  eventID: MTLA090620 eventType: Conferences  | Server Response: Success: Event Removed Successfully
+DATE: 2022-02-05 09:45:04 a.m.  attempting to listEventAvailability
+DATE: 2022-02-05 09:45:04 a.m. Client Action:  listEventAvailability | RequestParameters:  eventType: Conferences  | Server Response: MONTREAL Server Conferences:
+ (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] || 
+=====================================
+QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 12:54:11 p.m.  attempting to bookEvent
+DATE: 2022-02-05 12:54:11 p.m. Client Action:  bookEvent | RequestParameters:  customerID: MTLC1234 eventID: SHEE080620 eventType: Conferences  | Server Response: Success: Event SHEE080620 Booked Successfully
+DATE: 2022-02-05 12:56:37 p.m.  attempting to bookEvent
+DATE: 2022-02-05 12:56:37 p.m. Client Action:  bookEvent | RequestParameters:  customerID: MTLC1234 eventID: SHEE110620 eventType: Conferences  | Server Response: Success: Event SHEE110620 Booked Successfully
+DATE: 2022-02-05 12:56:54 p.m.  attempting to getBookingSchedule
+DATE: 2022-02-05 12:56:54 p.m. Client Action:  getBookingSchedule | RequestParameters:  customerID: MTLC1234  | Server Response: Conferences:
+SHEE080620 ||SHEE110620 ||
+=====================================
+
+DATE: 2022-02-05 12:57:57 p.m.  attempting to cancelEvent
+DATE: 2022-02-05 12:57:57 p.m. Client Action:  cancelEvent | RequestParameters:  customerID: MTLC1234 eventID: SHEE080620 eventType: Conferences  | Server Response: Success: Event SHEE080620 Canceled for MTLC1234
+DATE: 2022-02-05 12:58:21 p.m.  attempting to getBookingSchedule
+DATE: 2022-02-05 12:58:21 p.m. Client Action:  getBookingSchedule | RequestParameters:  customerID: MTLC1234  | Server Response: Conferences:
+SHEE110620 ||
+=====================================
+
+DATE: 2022-02-05 12:58:58 p.m. attempting to Logout
+DATE: 2022-02-05 01:03:26 p.m.  login attempt
+DATE: 2022-02-05 01:03:26 p.m.  Manager Login successful
+DATE: 2022-02-05 01:03:31 p.m.  attempting to listEventAvailability
+DATE: 2022-02-05 01:03:31 p.m. Client Action:  listEventAvailability | RequestParameters:  eventType: Seminars  | Server Response: MONTREAL Server Seminars:
+ (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+=====================================
+SHERBROOK Server Seminars:
+No Events of Type Seminars
+=====================================
+QUEBEC Server Seminars:
+No Events of Type Seminars
+=====================================
+
+DATE: 2022-02-05 01:04:05 p.m.  attempting to removeEvent
+DATE: 2022-02-05 01:04:05 p.m. Client Action:  removeEvent | RequestParameters:  eventID: MTLE230620 eventType: Seminars  | Server Response: Success: Event Removed Successfully
+DATE: 2022-02-05 01:04:31 p.m. attempting to Logout
+DATE: 2022-02-05 01:04:50 p.m.  login attempt
+DATE: 2022-02-05 01:04:50 p.m.  Manager Login successful
+DATE: 2022-02-05 01:04:57 p.m.  attempting to listEventAvailability
+DATE: 2022-02-05 01:04:57 p.m. Client Action:  listEventAvailability | RequestParameters:  eventType: Trade Shows  | Server Response: MONTREAL Server Trade Shows:
+ (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] || 
+=====================================
+SHERBROOK Server Trade Shows:
+No Events of Type Trade Shows
+=====================================
+QUEBEC Server Trade Shows:
+No Events of Type Trade Shows
+=====================================
+
+DATE: 2022-02-05 01:05:57 p.m.  attempting to removeEvent
+DATE: 2022-02-05 01:05:57 p.m. Client Action:  removeEvent | RequestParameters:  eventID: MTLA080620 eventType: Trade Shows  | Server Response: Success: Event Removed Successfully
+DATE: 2022-02-05 01:06:48 p.m.  attempting to removeEvent
+DATE: 2022-02-05 01:06:48 p.m. Client Action:  removeEvent | RequestParameters:  eventID: MTLA150620 eventType: Trade Shows  | Server Response: Success: Event Removed Successfully
+DATE: 2022-02-05 01:06:55 p.m.  attempting to listEventAvailability
+DATE: 2022-02-05 01:06:55 p.m. Client Action:  listEventAvailability | RequestParameters:  eventType: Conferences  | Server Response: MONTREAL Server Conferences:
+ (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Conferences:
+ (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[0] || 
+=====================================
+QUEBEC Server Conferences:
+No Events of Type Conferences
+=====================================
+
+DATE: 2022-02-05 01:07:21 p.m.  attempting to removeEvent
+DATE: 2022-02-05 01:07:21 p.m. Client Action:  removeEvent | RequestParameters:  eventID: MTLM010101 eventType: Conferences  | Server Response: Success: Event Removed Successfully

@@ -1,0 +1,181 @@
+DATE: 2022-02-06 11:17:11 a.m.  login attempt
+DATE: 2022-02-06 11:17:11 a.m.  Admin Login successful
+DATE: 2022-02-06 11:17:30 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:17:30 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 5  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:17:43 a.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-06 11:17:43 a.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:17:57 a.m. attempting to Logout
+DATE: 2022-02-06 11:22:14 a.m.  login attempt
+DATE: 2022-02-06 11:22:14 a.m.  Admin Login successful
+DATE: 2022-02-06 11:22:23 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:22:24 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:22:40 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:22:40 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLA010101 added successfully
+DATE: 2022-02-06 11:22:58 a.m.  attempting to bookAppointment
+DATE: 2022-02-06 11:22:58 a.m. Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-06 11:23:07 a.m.  attempting to removeEvent
+DATE: 2022-02-06 11:23:07 a.m. Patient Action:  removeAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment Removed Successfully
+DATE: 2022-02-06 11:23:14 a.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-06 11:23:14 a.m. Patient Action:  getAppointmentSchedule | RequestParameters:  patientID: MTLP1234  | Server Response: Physician:
+MTLA010101 ||
+=====================================
+
+DATE: 2022-02-06 11:23:22 a.m. attempting to Logout
+DATE: 2022-02-06 11:23:39 a.m.  login attempt
+DATE: 2022-02-06 11:23:39 a.m.  Admin Login successful
+DATE: 2022-02-06 11:23:43 a.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-06 11:23:43 a.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLA010101) in the Afternoon of 01/01/2001 Total[Remaining] Capacity: 3[2] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:24:04 a.m. attempting to Logout
+DATE: 2022-02-06 11:24:52 a.m.  login attempt
+DATE: 2022-02-06 11:24:52 a.m.  Admin Login successful
+DATE: 2022-02-06 11:25:02 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:25:02 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 5  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:25:21 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:25:21 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Surgeon appointmentCapacity: 5  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:25:33 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:25:33 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Dental appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:25:41 a.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-06 11:25:41 a.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLA010101) in the Afternoon of 01/01/2001 Total[Remaining] Capacity: 3[2] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:25:59 a.m. attempting to Logout
+DATE: 2022-02-06 11:38:44 a.m.  login attempt
+DATE: 2022-02-06 11:38:44 a.m.  Admin Login successful
+DATE: 2022-02-06 11:38:58 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:38:58 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-06 11:39:15 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:39:15 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLA020101 appointmentType: Surgeon appointmentCapacity: 3  | Server Response: Success: Appointment MTLA020101 added successfully
+DATE: 2022-02-06 11:39:19 a.m. attempting to Logout
+DATE: 2022-02-10 12:58:47 p.m.  login attempt
+DATE: 2022-02-10 12:58:47 p.m.  Admin Login successful
+DATE: 2022-02-10 12:58:59 p.m.  attempting to addAppointment
+DATE: 2022-02-10 12:58:59 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 5  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-10 12:59:08 p.m.  attempting to addAppointment
+DATE: 2022-02-10 12:59:08 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM020101 appointmentType: Physician appointmentCapacity: 5  | Server Response: Success: Appointment MTLM020101 added successfully
+DATE: 2022-02-10 12:59:22 p.m.  attempting to addAppointment
+DATE: 2022-02-10 12:59:22 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM030101 appointmentType: Physician appointmentCapacity: 5  | Server Response: Success: Appointment MTLM030101 added successfully
+DATE: 2022-02-10 12:59:37 p.m.  attempting to addAppointment
+DATE: 2022-02-10 12:59:37 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM040101 appointmentType: Physician appointmentCapacity: 5  | Server Response: Success: Appointment MTLM040101 added successfully
+DATE: 2022-02-10 12:59:44 p.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-10 12:59:44 p.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLM020101) in the Morning of 02/01/2001 Total[Remaining] Capacity: 5[5] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[5] ||  (MTLM040101) in the Morning of 04/01/2001 Total[Remaining] Capacity: 5[5] ||  (MTLM030101) in the Morning of 03/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+SHERBROOK Server Physician:
+ (SHEM020202) in the Morning of 02/02/2002 Total[Remaining] Capacity: 5[4] || 
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-10 01:00:07 p.m. attempting to Logout
+DATE: 2022-02-10 01:01:06 p.m.  login attempt
+DATE: 2022-02-10 01:01:06 p.m.  Admin Login successful
+DATE: 2022-02-10 01:01:10 p.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-10 01:01:10 p.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLM020101) in the Morning of 02/01/2001 Total[Remaining] Capacity: 5[4] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 5[4] ||  (MTLM040101) in the Morning of 04/01/2001 Total[Remaining] Capacity: 5[5] ||  (MTLM030101) in the Morning of 03/01/2001 Total[Remaining] Capacity: 5[4] || 
+=====================================
+SHERBROOK Server Physician:
+ (SHEM020202) in the Morning of 02/02/2002 Total[Remaining] Capacity: 5[4] || 
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-10 01:01:29 p.m.  attempting to addAppointment
+DATE: 2022-02-10 01:01:29 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM160101 appointmentType: Physician appointmentCapacity: 5  | Server Response: Success: Appointment MTLM160101 added successfully
+DATE: 2022-02-10 01:01:32 p.m. attempting to Logout
+DATE: 2022-02-14 12:40:32 p.m.  login attempt
+DATE: 2022-02-14 12:40:32 p.m.  Admin Login successful
+DATE: 2022-02-14 12:40:50 p.m.  attempting to addAppointment
+DATE: 2022-02-14 12:40:50 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon appointmentCapacity: 2  | Server Response: Success: Appointment MTLM070707 added successfully
+DATE: 2022-02-14 12:41:11 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 12:41:11 p.m. Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLM070707 appointmentType: Surgeon  | Server Response: Success: Appointment MTLM070707 Booked Successfully
+DATE: 2022-02-14 12:41:31 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 12:41:31 p.m. Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLM070707 appointmentType: Surgeon  | Server Response: Failed: Appointment MTLM070707 Already Booked
+DATE: 2022-02-14 12:41:44 p.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-14 12:41:44 p.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Surgeon  | Server Response: MONTREAL Server Surgeon:
+ (MTLM070707) in the Morning of 07/07/2007 Total[Remaining] Capacity: 2[1] || 
+=====================================
+SHERBROOK Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+QUEBEC Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+
+DATE: 2022-02-14 12:41:51 p.m. attempting to Logout
+DATE: 2022-02-14 07:03:38 p.m.  login attempt
+DATE: 2022-02-14 07:03:38 p.m.  Admin Login successful
+DATE: 2022-02-14 07:03:49 p.m.  attempting to addAppointment
+DATE: 2022-02-14 07:03:49 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-14 07:04:03 p.m.  attempting to addAppointment
+DATE: 2022-02-14 07:04:03 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLA010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLA010101 added successfully
+DATE: 2022-02-14 07:04:27 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 07:04:27 p.m. Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-14 07:04:40 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 07:04:40 p.m. Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLA010101 appointmentType: Physician  | Server Response: Success: Appointment MTLA010101 Booked Successfully
+DATE: 2022-02-14 07:06:56 p.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-14 07:06:56 p.m. Patient Action:  getAppointmentSchedule | RequestParameters:  patientID: MTLP1234  | Server Response: Physician:
+MTLM010101 ||MTLA010101 ||
+=====================================
+
+DATE: 2022-02-14 07:07:23 p.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-14 07:07:23 p.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLA010101) in the Afternoon of 01/01/2001 Total[Remaining] Capacity: 3[2] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 3[2] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-14 07:08:44 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 07:08:44 p.m. Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLA010101 appointmentType: Physician  | Server Response: Failed: Appointment MTLA010101 Already Booked
+DATE: 2022-02-14 07:09:07 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 07:09:07 p.m. Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Failed: Appointment MTLM010101 Already Booked
+DATE: 2022-02-14 07:09:22 p.m.  attempting to cancelAppointment
+DATE: 2022-02-14 07:09:22 p.m. Patient Action:  cancelAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLA010101 appointmentType: Physician  | Server Response: Success: Appointment MTLA010101 Canceled for MTLP1234
+DATE: 2022-02-14 07:09:32 p.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-14 07:09:32 p.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLA010101) in the Afternoon of 01/01/2001 Total[Remaining] Capacity: 3[3] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 3[2] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-14 07:09:43 p.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-14 07:09:43 p.m. Patient Action:  getAppointmentSchedule | RequestParameters:  patientID: MTLP1234  | Server Response: Physician:
+MTLM010101 ||
+=====================================
+
+DATE: 2022-02-14 07:10:05 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 07:10:05 p.m. Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLA010101 appointmentType: Physician  | Server Response: Success: Appointment MTLA010101 Booked Successfully

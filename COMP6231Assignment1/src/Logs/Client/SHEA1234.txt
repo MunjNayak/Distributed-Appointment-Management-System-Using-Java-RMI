@@ -1,0 +1,99 @@
+DATE: 2022-02-06 11:29:56 a.m.  login attempt
+DATE: 2022-02-06 11:29:56 a.m.  Admin Login successful
+DATE: 2022-02-06 11:30:00 a.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-06 11:30:00 a.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: SHERBROOK Server Physician:
+No Appointments of Type PhysicianQUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+MONTREAL Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:30:48 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:30:48 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 5  | Server Response: Failed: Cannot Add Appointment to servers other than SHERBROOK
+DATE: 2022-02-06 11:31:06 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:31:06 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment SHEM010101 added successfully
+DATE: 2022-02-06 11:31:20 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:31:20 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM020202 appointmentType: Surgeon appointmentCapacity: 3  | Server Response: Success: Appointment SHEM020202 added successfully
+DATE: 2022-02-06 11:31:36 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:31:36 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM030303 appointmentType: Dental appointmentCapacity: 3  | Server Response: Success: Appointment SHEM030303 added successfully
+DATE: 2022-02-06 11:31:40 a.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-06 11:31:40 a.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: SHERBROOK Server Physician:
+ (SHEM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 3[3] || 
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+MONTREAL Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-06 11:31:46 a.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-06 11:31:46 a.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Surgeon  | Server Response: SHERBROOK Server Surgeon:
+ (SHEM020202) in the Morning of 02/02/2002 Total[Remaining] Capacity: 3[3] || 
+=====================================
+QUEBEC Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+MONTREAL Server Surgeon:
+No Appointments of Type Surgeon
+=====================================
+
+DATE: 2022-02-06 11:31:54 a.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-06 11:31:54 a.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Dental  | Server Response: SHERBROOK Server Dental:
+ (SHEM030303) in the Morning of 03/03/2003 Total[Remaining] Capacity: 3[3] || 
+=====================================
+QUEBEC Server Dental:
+No Appointments of Type Dental
+=====================================
+MONTREAL Server Dental:
+No Appointments of Type Dental
+=====================================
+
+DATE: 2022-02-06 11:32:34 a.m. attempting to Logout
+DATE: 2022-02-06 11:39:25 a.m.  login attempt
+DATE: 2022-02-06 11:39:25 a.m.  Admin Login successful
+DATE: 2022-02-06 11:39:47 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:39:47 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEE030101 appointmentType: Dental appointmentCapacity: 3  | Server Response: Success: Appointment SHEE030101 added successfully
+DATE: 2022-02-06 11:40:24 a.m.  attempting to addAppointment
+DATE: 2022-02-06 11:40:24 a.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM050101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment SHEM050101 added successfully
+DATE: 2022-02-06 11:40:30 a.m. attempting to Logout
+DATE: 2022-02-10 12:38:42 p.m.  login attempt
+DATE: 2022-02-10 12:38:42 p.m.  Admin Login successful
+DATE: 2022-02-10 12:39:11 p.m.  attempting to addAppointment
+DATE: 2022-02-10 12:39:11 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM010101 appointmentType: Dental appointmentCapacity: 5  | Server Response: Success: Appointment SHEM010101 added successfully
+DATE: 2022-02-10 12:39:27 p.m.  attempting to addAppointment
+DATE: 2022-02-10 12:39:27 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEE030101 appointmentType: Dental appointmentCapacity: 5  | Server Response: Success: Appointment SHEE030101 added successfully
+DATE: 2022-02-10 12:39:30 p.m. attempting to Logout
+DATE: 2022-02-10 12:40:06 p.m.  login attempt
+DATE: 2022-02-10 12:40:06 p.m.  Admin Login successful
+DATE: 2022-02-10 12:40:13 p.m.  attempting to removeEvent
+DATE: 2022-02-10 12:40:13 p.m. Patient Action:  removeAppointment | RequestParameters:  appointmentID: SHEM010101 appointmentType: Dental  | Server Response: Success: Appointment Removed Successfully
+DATE: 2022-02-10 12:40:15 p.m. attempting to Logout
+DATE: 2022-02-10 12:46:05 p.m.  login attempt
+DATE: 2022-02-10 12:46:05 p.m.  Admin Login successful
+DATE: 2022-02-10 12:46:09 p.m.  attempting to listAppointmentAvailability
+DATE: 2022-02-10 12:46:09 p.m. Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Dental  | Server Response: SHERBROOK Server Dental:
+ (SHEE030101) in the Evening of 03/01/2001 Total[Remaining] Capacity: 5[5] || 
+=====================================
+QUEBEC Server Dental:
+No Appointments of Type Dental
+=====================================
+MONTREAL Server Dental:
+No Appointments of Type Dental
+=====================================
+
+DATE: 2022-02-10 12:46:32 p.m.  attempting to addAppointment
+DATE: 2022-02-10 12:46:32 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM040101 appointmentType: Dental appointmentCapacity: 5  | Server Response: Success: Appointment SHEM040101 added successfully
+DATE: 2022-02-10 12:46:47 p.m.  attempting to bookAppointment
+DATE: 2022-02-10 12:46:47 p.m. Patient Action:  bookAppointment | RequestParameters:  patientID: SHEP1234 appointmentID: SHEE030101 appointmentType: Dental  | Server Response: Success: Appointment SHEE030101 Booked Successfully
+DATE: 2022-02-10 12:46:58 p.m.  attempting to removeEvent
+DATE: 2022-02-10 12:46:58 p.m. Patient Action:  removeAppointment | RequestParameters:  appointmentID: SHEE030101 appointmentType: Dental  | Server Response: Success: Appointment Removed Successfully
+DATE: 2022-02-10 12:47:04 p.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-10 12:47:04 p.m. Patient Action:  getAppointmentSchedule | RequestParameters:  patientID: SHEP1234  | Server Response: Dental:
+SHEM040101 ||
+=====================================
+
+DATE: 2022-02-10 12:47:54 p.m.  attempting to addAppointment
+DATE: 2022-02-10 12:47:54 p.m. Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM020202 appointmentType: Physician appointmentCapacity: 5  | Server Response: Success: Appointment SHEM020202 added successfully
+DATE: 2022-02-10 12:48:01 p.m. attempting to Logout

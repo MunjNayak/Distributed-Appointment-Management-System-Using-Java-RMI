@@ -1,0 +1,21 @@
+DATE: 2022-02-06 11:19:08 a.m.  login attempt
+DATE: 2022-02-06 11:19:08 a.m.  Patient Login successful
+DATE: 2022-02-06 11:19:17 a.m.  attempting to bookAppointment
+DATE: 2022-02-06 11:20:48 a.m.  login attempt
+DATE: 2022-02-06 11:20:48 a.m.  Patient Login successful
+DATE: 2022-02-06 11:20:51 a.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-06 11:20:51 a.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Appointment Schedule Empty For SHEP1234
+DATE: 2022-02-06 11:21:00 a.m.  attempting to bookAppointment
+DATE: 2022-02-06 11:21:26 a.m.  login attempt
+DATE: 2022-02-06 11:21:26 a.m.  Patient Login successful
+DATE: 2022-02-06 11:21:30 a.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-06 11:21:30 a.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Booking Schedule Empty For SHEP1234
+DATE: 2022-02-06 11:21:45 a.m.  attempting to cancelAppointment
+DATE: 2022-02-06 11:26:11 a.m.  login attempt
+DATE: 2022-02-06 11:26:11 a.m.  Patient Login successful
+DATE: 2022-02-06 11:26:19 a.m.  attempting to bookAppointment
+DATE: 2022-02-14 12:41:56 p.m.  login attempt
+DATE: 2022-02-14 12:41:56 p.m.  Patient Login successful
+DATE: 2022-02-14 12:42:03 p.m.  attempting to bookAppointment
+DATE: 2022-02-14 12:42:03 p.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM070707 appointmentType: Surgeon  | Server Response: Success: Appointment MTLM070707 Booked Successfully
+DATE: 2022-02-14 12:42:07 p.m.  attempting to Logout

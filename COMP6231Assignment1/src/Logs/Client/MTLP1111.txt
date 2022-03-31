@@ -1,0 +1,10 @@
+DATE: 2022-02-10 12:48:06 p.m.  login attempt
+DATE: 2022-02-10 12:48:06 p.m.  Patient Login successful
+DATE: 2022-02-10 12:48:14 p.m.  attempting to bookAppointment
+DATE: 2022-02-10 12:48:14 p.m. Patient Action:  bookAppointment | RequestParameters:  appointmentID: SHEM020202 appointmentType: Physician  | Server Response: Success: Appointment SHEM020202 Booked Successfully
+DATE: 2022-02-10 12:48:18 p.m.  attempting to getAppointmentSchedule
+DATE: 2022-02-10 12:48:18 p.m. Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+SHEM020202 ||
+=====================================
+
+DATE: 2022-02-10 12:58:24 p.m.  attempting to Logout
